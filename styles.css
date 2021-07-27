@@ -5,19 +5,26 @@ body{
 
 header{
     background-color: red;
-  
+    background-image: url("images/flowers.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
 }
 
 header a{
     color: white; 
+    margin-top: 40px;
     text-decoration: underline;
    text-transform: uppercase;
-    margin-top: 40px;
 }
 
 header .logo a{
     background-image: url("images/logo.png");
-    background-size: 100px;
+    background-size: 95px;
     background-repeat: no-repeat;
    display: inline-block;
    height: 95px;
@@ -25,22 +32,49 @@ header .logo a{
    position: relative;
    text-indent: -9999999px;
    top: -40px;
+
 }
 footer{
-    background-color: black;
+    background-color: lavender;
+    height: 50px;
+    font-size: 25px;
 }
 
 section{
-    background-color:white;
+    background-color:lavender;
+  display: flex;  
+  font-size: 18px;
+}
+
+.features{
+  background-color: whitesmoke;
+  padding: 20px;
   display: flex;
   flex-direction: row;
-    
+  margin:auto;
+}
+
+.features img{
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: violet 0 0 10px;
+    margin: auto;
+    width: 400px;
+    height: 350px;
 }
 
 div{
 background-color: red;
 width: 100px;
 margin: auto;
+}
+
+img{
+    height: 460px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 ul{
@@ -56,3 +90,8 @@ li{
     display: inline-block;
 }
 
+article{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
